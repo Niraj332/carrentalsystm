@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var x=getElementsByName("shivam")[0].value;
+function fun()
+{
+document.write("<a href='CarRental6.html' target=_blank id ='link'>confirm payment</a>.");
+document.write("<br>");
+document.write("<a href='CarRental5.html' target=_blank id ='link'>BACK PAGE</a>.");
+}
+</script>
+<style>
+#T
+{
+font-size:50px;
+}
+body
+{
+padding-top:30px;
+padding-bottom:40px;
+padding-right:400px;
+padding-left:500px;
+}
+table
+{
+margin:50px;
+max-width:600px;
+padding:50px;
+background-color:lightyellow;
+font-size:30px;
+}
+h1
+{
+font-size:50px;
+color:blue;
+}
+#shivam
+{
+font-size:35px;
+color:blue;
+}
+body
+{
+background-image:url(car.jpeg);
+}
+</style>
+</head>
+<body>
+<h1>PAYMENT METHODS<h1>
+<marquee id="shivam" behavior="scroll" direction="left">CLICK ON ANY METHOD OF PAYMENT</marquee>
+<table border=4px>
+<tr id="T" bgcolor="yellow">
+<th onclick="fun()" >NETBANKING</th>
+</tr>
+<tr>
+<th onclick="fun()"  id="T" >pAYTM</tm>
+</tr>
+<tr>
+<th onclick="fun()"  id="T" bgcolor="red">PHONE PAY</tm>
+</tr>
+<tr>
+<th onclick="fun()" id="T">GOOGLE PLAY</th>
+</tr>
+<tr>
+<th onclick="fun()"  id="T" bgcolor="pinkss">UPI</tm>
+</tr>
+</table>
+</body>
+</html>
